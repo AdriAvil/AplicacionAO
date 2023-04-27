@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FertiOrganMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewoct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="Octubre"
+                app:srcCompat="@drawable/ferti500x500" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="DESCRIPCIÓN GENERAL"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Fertiorgan es un fertlizante organico mineral de concentrado soluble, su fórmula mejorada aporta una gran variedad de nutrientes permitienedo un excelente desarrollo vegetativo, floracion y mejora la fructificación ayuda a regular las funciones metabolicas permitiendo un excelente desarrollo vegetativo, floracion y mejora la fructificacion ayuda a regular las funciones metabolicas permitiendo tener cultivos más resistentes a cualquier tipo de ataque ocasionados por insectos y hongos dando excelentes rendimientos en los cultivos y mejorando la calidad de los frutos a cosecha "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="VENTAJAS"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Su aplicacion ayuda a mantener plantas más vigorosas ante cualquier problema de plagas"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Su alto contenido de azufre y calcio dan energia a la planta"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="
+Rejuvenece el follaje dandole consitencia y brillo tanto a la hoja como a los frutos"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Promueve un mayor desarrollo y fertilidad de las flores mejorando la cuajada y precocidad en las plantas. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="PRECAUCIONES"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No mezclar con otros pesticidas o productos de extremada reacción alcalina. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No pulverizar en días humedos, ni de intenso calor (29°C), preferiblemente aplicar en días secos y sin "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No aplicar en leguminosas en estado de floración, ni en plantas de la familia Cucurbitaceas "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Usar: ropa protectora adecuada, guantes, delantal, overol, botas, gafas, casco o gorra, mascarilla contra la neblina de aspersión, respirador, etc. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Después de usar el contenido, enjuague tres veces este envase y vierta la solución en la mezcla de aplicación, inutilícelo triturando o perforándolo y depositelo en el lugar destinado por las autoridades locales para este fin. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

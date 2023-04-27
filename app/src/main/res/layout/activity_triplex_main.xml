@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriplexMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewoct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="Octubre"
+                app:srcCompat="@drawable/triplex500x500" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="DESCRIPCIÓN GENERAL"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TRIPLEX es un producto de origen orgánico, es un fertilizante cuya formula diseñada aporta los tres principales macro nutrientes con ayuda del Carbono orgánico y materia orgánica presente en su fórmula al ser aplicado en el suelo ayuda a modificar la acidez y la alcalinidad haciendo valores cercanos a la neutralidad y aumentando así la solubilidad de varios nutrientes. El CO asociado a la materia orgánica del suelo proporciona coloides de alta capacidad de intercambio catiónico. Su composición química mejorada permite que a partir de su aplicación se obtengan altos rendimientos de productividad. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="VENTAJAS"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Es un producto biodegradable, disminuyendo el riesgo de residuos en los alimentos, lo que permite tener un nivel bajo de peligrosidad relativamente. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No es toxico para la salud humana ni para animales."                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Ayuda mejorar la capacidad de intercambio catiónico en el suelo."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Disminuye la acidez de los suelos. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No bloquea la producción de flor. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Aumenta la producción y desarrollo de raíces. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="PRECAUCIONES"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No mezclar con otros pesticidas o productos de extremada reacción alcalina. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No pulverizar en días humedos, ni de intenso calor (29°C), preferiblemente aplicar en días secos y sin "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Durante la preparación y utilización del producto NO COMER, BEBER O FUMAR."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Usar: ropa protectora adecuada, guantes, delantal, overol, botas, gafas, casco o gorra, mascarilla contra la neblina de aspersión, respirador, etc. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Después de usar el contenido, enjuague tres veces este envase y vierta la solución en la mezcla de aplicación, inutilícelo triturando o perforándolo y depositelo en el lugar destinado por las autoridades locales para este fin. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No se ha detectado fitotoxicidad en los cultivos si es utilizado bajo las indicaciones del técnico, sin embargo, por estar la aplicación fuera de nuestro control declinamos toda responsabilidad por daños eventuales por su uso. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

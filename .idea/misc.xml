@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_abril.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_actividad_principal.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_agosto.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_calendario_lunar.xml" value="0.21782178217821782" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_complemento_main.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_diciembre.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_enero.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_febrero.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_ferti_organ_main.xml" value="0.21084156933213538" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_ficha_tecnica.xml" value="0.33" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_full_cacao.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_full_cacao_main.xml" value="0.2" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_gplus_main.xml" value="0.25" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_humi_pkmain.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_julio.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_junio.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_main.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_marzo.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_mayo.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_noviembre.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_nutri_full_main.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_octubre.xml" value="0.33" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_septiembre.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/Agro Organico/AndroidStudioProjects/AgroOrganico/app/src/main/res/layout/activity_triplex_main.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullCacaoMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewoct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="Octubre"
+                app:srcCompat="@drawable/fullcacao500x500" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="DESCRIPCIÓN GENERAL"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="FULL CACAO es un fertilizante granulado orgánico mineral elaborado a partir de diferentes materias primas de origen animal, vegetal y mineral. Enriquecido con altos niveles de nutrientes químicos y orgánicos, su formulación tiene como finalidad cubrir las necesidades de todos los elementos, aportando macro y micronutrientes ayudando a aumentar la calidad de la Biomasa en la planta permitiendo así un aumento en la calidad y producción de la misma, trabaja como regulador de pH, su presencia de materia orgánica y carbono orgánico en su composición ayuda a mejorar la estructura del suelo."
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="VENTAJAS"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Liberación controlada de macro y micronutrientes. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Aumenta la capacidad de intercambio catiónico (CIC). "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Aumenta la conectividad eléctrica (CE). "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Regula el contenido de sales en el suelo. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Produce un efecto buffer en la regulación de PH del suelo. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Optimizar el follaje de la planta."
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Optimizar el sistema radicular de la planta. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Posibilita que las raíces y los tallos sean fuertes, los frutos y las hojas sean grandes."
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Crear resistencia a las plagas y enfermedades. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Optimizar y regenerar suelo"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Optimizar la floración de la planta y asegurar su amarre."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Aumenta la producción."
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="PRECAUCIONES"
+                android:textColor="#009688"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Durante la aplicación y utilización del producto NO COMER, BEBER O FUMAR. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="USAR: ropa protectora adecuada, guantes, delantal, overol, botas, gafas, casco o gorra, mascarilla contra la neblina de aspersión, respirador, etc. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Después de usar el contenido, inutilícelo triturando o perforándolo y depositelo en el lugar destinado por las autoridades locales para este fin. "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No se ha detectado fitotoxicidad en los cultivos si es utilizado bajo las indicaciones del técnico, sin embargo, por estar la aplicación fuera de nuestro control declinamos toda responsabilidad por daños eventuales por su uso. "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="56dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

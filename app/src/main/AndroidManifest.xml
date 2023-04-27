@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aplicacion.agroorganico">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AgroOrganico"
+        tools:targetApi="31">
+        <activity
+            android:name=".HumiPKMain"
+            android:exported="false" />
+        <activity
+            android:name=".FullCacaoMain"
+            android:exported="false" />
+        <activity
+            android:name=".NutriFullMain"
+            android:exported="false" />
+        <activity
+            android:name=".ComplementoMain"
+            android:exported="false" />
+        <activity
+            android:name=".GPlusMain"
+            android:exported="false" />
+        <activity
+            android:name=".TriplexMain"
+            android:exported="false" />
+        <activity
+            android:name=".FertiOrganMain"
+            android:exported="false" />
+        <activity
+            android:name=".FichaTecnica"
+            android:exported="false" />
+        <activity
+            android:name=".Septiembre"
+            android:exported="false" />
+        <activity
+            android:name=".Agosto"
+            android:exported="false" />
+        <activity
+            android:name=".Julio"
+            android:exported="false" />
+        <activity
+            android:name=".Junio"
+            android:exported="false" />
+        <activity
+            android:name=".Mayo"
+            android:exported="false" />
+        <activity
+            android:name=".Abril"
+            android:exported="false" />
+        <activity
+            android:name=".Marzo"
+            android:exported="false" />
+        <activity
+            android:name=".Febrero"
+            android:exported="false" />
+        <activity
+            android:name=".Enero"
+            android:exported="false" />
+        <activity
+            android:name=".Diciembre"
+            android:exported="false" />
+        <activity
+            android:name=".Noviembre"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarioLunar"
+            android:exported="false" />
+        <activity
+            android:name=".Octubre"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
